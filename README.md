@@ -5,6 +5,7 @@ This Repository contains a draft (but working!) code for integrating a ConnectLi
 ------------
 
 You will need to install **homebridge-http-advanced-accessory plugin** in Homebridge
+
 Place the following in the plugin settings:
 
 ```
@@ -66,8 +67,11 @@ Place the following in the plugin settings:
 ------------
 
 Now, download both the - index.js-  and - package.json - files in the same folder. run **npm install** to install the required dependencies.
+
 Then, **edit** the following in the index.JS file
 - AuthorizationKey: the authorization key used in the API Link https://api.connectlife.io/swagger/index.html
 - myACid: your AC id (can be found using "/api/v1/appliance"
 
-Finally, you can now run node index.js or nodemon to run the node server in the background. Restart homebridge and you will find the AC in your Apple Home devices
+Finally, you can now run node index.js or nodemon to run the node server in the background.
+
+Restart Homebridge and you will find the AC in your Apple Home devices
