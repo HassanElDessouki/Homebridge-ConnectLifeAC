@@ -65,7 +65,7 @@ Place the following in the plugin settings:
 
 ------------
 
-Now, download both the - index.js-  and - package.json - files in the same folder. run **npm install** to install the required dependencies,
+Now, download both the - index.js-  and - package.json - files in the same folder. run **npm install** to install the required dependencies.
 Then, **edit** the following in the index.JS file
 - AuthorizationKey: the authorization key used in the API Link https://api.connectlife.io/swagger/index.html
 - myACid: your AC id (can be found using "/api/v1/appliance"
