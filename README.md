@@ -4,8 +4,8 @@ This Repository contains a draft (but working!) code for integrating a ConnectLi
 
 ------------
 
-**You will need to install **homebridge-http-advanced-accessory plugin** in your Homebridge
-**Place the following in the plugin settings
+You will need to install **homebridge-http-advanced-accessory plugin** in Homebridge
+Place the following in the plugin settings:
 
 ```
 {
